@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skyline Builders</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- From Uiverse.io by bandirevanth -->
+
+    
+  </head>
+
+  <body id="home">
+    <header>
+      <h1>Skyline Builders</h1>
+
+      <nav id="#navMenu">
+        <a href="#home">Home</a>
+        <a href="#service">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-1">
+        <h1 class="quote">
+          Crafting Strong Structures For a Stronger Tomorrow
+        </h1>
+        <p>Madurai</p>
+        <button class="contact-btn" onclick="openForm()">Contact Us</button>
+
+        <!-- Overlay -->
+        <div class="overlay" id="overlay"></div>
+
+        <!-- The Popup Form -->
+        <div class="popup-form" id="popupForm">
+          <button class="close-btn" onclick="closeForm()">X</button>
+          <h2 id="form">Contact Us</h2>
+          <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="serve">
+        <section id="service">
+          <h1 class="h">Our Services</h1>
+          <h2 id="res">Residential construction</h2>
+          <article>
+            <img src="VIlla.png" alt="" width="250" height="280"  />
+
+            <p>
+              We turn your dream home into reality. Our residential construction
+              services include building custom villas, luxury apartments, and
+              sustainable housing projects. With a commitment to quality,
+              safety, and modern design, we ensure each home is crafted with
+              care and precision.
+            </p>
+          </article>
+
+          <h2 id="con">Commercial construction</h2>
+          <article id="two">
+            <p>
+              We turn your dream home into reality. Our residential construction
+              services include building custom villas, luxury apartments, and
+              sustainable housing projects. With a commitment to quality,
+              safety, and modern design, we ensure each home is crafted with
+              care and precision.
+            </p>
+
+            <img
+              src="construction-works-frankfurt-downtown-germany.jpg"
+              alt=""
+            />
+          </article>
+
+          <h2 id="indus">Industrial Construction</h2>
+          <article>
+            <img
+              src="construction-works-frankfurt-downtown-germany.jpg"
+              alt=""
+            />
+            <p>
+              At Skyline Builders, we turn your dream home into reality. Our
+              residential construction services include building custom villas,
+              luxury apartments, and sustainable housing projects. With a
+              commitment to quality, safety, and modern design, we ensure each
+              home is crafted with care and precision.
+            </p>
+          </article>
+        </section>
+
+        <section id="projects">
+          <h1 id="pro">Our Recent Projects</h1>
+          <p id="box">
+            We take pride in delivering high-quality construction projects that
+            reflect our commitment to excellence, innovation, and
+            sustainability. <br />Here are some of our recently completed and
+            ongoing projects
+          </p>
+
+          <div id="project">
+            <div>
+              <img src="VIlla.png" alt=""  width="360px" height="300px" />
+              <p>Resident Construction</p>
+            </div>
+
+            <div>
+              <img src="Resident.png" alt="" width="360px" height="300px" />
+              <p>Commercial Construction</p>
+            </div>
+
+            <div>
+              <img src="indus.png" alt="" width="360px" height="300px" />
+              <p>Industrial Construction</p>
+            </div>
+
+            <div>
+              <img src="Infra.png" alt="" width="360px" height="300px" />
+              <p>Bridge Construction</p>
+            </div>
+
+            <div>
+              <img src="Mall.png" alt="" width="360px" height="300px" />
+              <p>Mall Construction</p>
+            </div>
+
+            <div>
+              <img
+                src="construction-works-frankfurt-downtown-germany.jpg"
+                alt=""
+                width="360px"
+                height="300px"
+              />
+              <p>Commercial Construction</p>
+            </div>
+          </div>
+        </section>
+        <h2 id="ab">About Us</h2>
+
+        <section id="about">
+          <article class="web">
+            <p>
+              We believe in turning visions into reality with precision,
+              integrity, and innovation. With years of experience in the
+              construction industry, we specialize in delivering high-quality
+              residential, commercial, industrial, and infrastructure projects
+              that stand the test of time. Our team of skilled professionals is
+              committed to excellence in every phase — from planning and design
+              to execution and final handover. We prioritize safety,
+              sustainability, and client satisfaction in all our projects,
+              ensuring that every structure we build reflects our core values.
+              Whether it's a dream home, a modern workspace, or large-scale
+              industrial development, Skyline Builders is your trusted partner
+              in construction.
+            </p>
+          </article>
+        </section>
+        <div>
+          <h2 id="contact">Contact us</h2>
+          <footer>
+            <div id="artical">
+              <h4>📍Our Office</h4>
+              <p>123 Dream Avenue, Madurai, Tamil Nadu, 625001, India</p>
+            </div>
+
+            <div id="artical">
+              <h4>📞 Phone</h4>
+              <p>+91 452-1234567</p>
+              <p>+91 98765 43210</p>
+            </div>
+
+            <div id="artical">
+              <h4>📧 Email</h4>
+              <p>info@skylinebuilders.com</p>
+            </div>
+
+            <div id="artical">
+              <h4>⏰ Working Hours</h4>
+              <p>
+                Monday-Saturday: <br />9:00 AM - 6:00 PM <br />
+                Sunday: Closed
+              </p>
+            </div>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <script>
+    function openForm() {
+      document.getElementById("popupForm").style.display = "block";
+      document.getElementById("overlay").style.display = "block";
+    }
+
+    function closeForm() {
+      document.getElementById("popupForm").style.display = "none";
+      document.getElementById("overlay").style.display = "none";
+    }
+  </script>
+  </body>
+</html>
